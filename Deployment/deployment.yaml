@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: chandrakanthreddy1/node-app:latest   # GitHub Actions will replace 'latest' with commit SHA
+        image: chandrakanthreddy1/node-app:c0165387ec2131d7564fdfac632e2240d466eee7
         ports:
         - containerPort: 3000
